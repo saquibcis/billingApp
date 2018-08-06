@@ -19,7 +19,7 @@ public class Quickbill extends javax.swing.JFrame {
      */
     public Quickbill() {
         initComponents();
-        this.setLocation(300,100);
+        this.setLocation(300,100); 
     }
     public void close(){
         WindowEvent winClosingEvent=new WindowEvent(this,WindowEvent.WINDOW_CLOSING);
@@ -54,14 +54,15 @@ public class Quickbill extends javax.swing.JFrame {
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Computech Billing");
+        setTitle("Web Instance Billing");
 
         jPanel2.setBackground(new java.awt.Color(204, 204, 255));
         jPanel2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); 
         jLabel1.setForeground(new java.awt.Color(51, 51, 51));
-        jLabel1.setText("Welcome To Computech Billing System");
+        jLabel1.setText("Welcome To Web Instance Billing System");
+        jLabel1.setHorizontalAlignment((int) CENTER_ALIGNMENT);
         jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imageedit_1_7108393836.png"))); 
